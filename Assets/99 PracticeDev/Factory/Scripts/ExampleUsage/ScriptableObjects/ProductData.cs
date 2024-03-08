@@ -12,10 +12,7 @@ namespace ESDesignPatterns.Factory
         
         public FactoryType FactoryType;
         public Object Item;
-        
-        public void Initialize()
-        {
-            
-        }
+
+        public void Initialize() { }
     }
 }

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 615c51efd219a964eb8686af6f9989de, type: 3}
-  m_Name: Bat_Green
+  m_Name: Rabbit
   m_EditorClassIdentifier: 
-  Name: Bat
+  Name: Rabbit_Green
   FactoryType: 0
-  Item: {fileID: 1000013827195344, guid: d82532fc4fd80bf4097d29efd331a0ff, type: 3}
+  Item: {fileID: 1000013767804016, guid: c334a7c41936e764391ae93ab0e1981d, type: 3}

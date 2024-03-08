@@ -12,13 +12,7 @@ namespace ESDesignPatterns.Factory
     
     public class FactoryManager : MonoBehaviour
     {
-        //private Pro
         private Dictionary<FactoryType, Factory> _factoryList = new();
-
-        private void Start()
-        {
-
-        }
 
         private void _CreateFactory(ProductData data)
         {
@@ -33,6 +27,7 @@ namespace ESDesignPatterns.Factory
             {
                 var lazyFactory = new Lazy<Factory>();
                 _factoryList.Add(type, lazyFactory.Value);
+                factory = lazyFactory.Value;
             }
             return factory;
         }

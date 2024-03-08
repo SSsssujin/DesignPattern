@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ef6b011b760b55418ab12ebfd9b4f42, type: 3}
-  m_Name: ProductList
+  m_Script: {fileID: 11500000, guid: 615c51efd219a964eb8686af6f9989de, type: 3}
+  m_Name: Bat
   m_EditorClassIdentifier: 
-  MonsterList:
-  - {fileID: 11400000, guid: 77291a676513f5e45a327934937be5a9, type: 2}
+  Name: Bat
+  FactoryType: 0
+  Item: {fileID: 1000013827195344, guid: d82532fc4fd80bf4097d29efd331a0ff, type: 3}
