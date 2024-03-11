@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef6b011b760b55418ab12ebfd9b4f42, type: 3}
   m_Name: ProductList
   m_EditorClassIdentifier: 
-  MonsterList:
-  - {fileID: 11400000, guid: 77291a676513f5e45a327934937be5a9, type: 2}
+  factoryList:
+  - _type: 0
+    _data: {fileID: 11400000, guid: 77291a676513f5e45a327934937be5a9, type: 2}
+  - _type: 0
+    _data: {fileID: 11400000, guid: 3a1ee42e5901e32448427c9a45ee5212, type: 2}

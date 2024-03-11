@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 615c51efd219a964eb8686af6f9989de, type: 3}
+  m_Script: {fileID: 11500000, guid: 72cdb76f0f3d5ab4d98cac47a5811a04, type: 3}
   m_Name: Bat
   m_EditorClassIdentifier: 
   Name: Bat
-  FactoryType: 0
-  Item: {fileID: 1000013827195344, guid: d82532fc4fd80bf4097d29efd331a0ff, type: 3}
+  Item: {fileID: 1000013849561652, guid: 5fd1210210040d34e8810388185a6063, type: 3}
