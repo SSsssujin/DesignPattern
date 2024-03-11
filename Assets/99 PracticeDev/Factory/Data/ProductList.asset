@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   factoryList:
   - _type: 0
-    _data: {fileID: 11400000, guid: 77291a676513f5e45a327934937be5a9, type: 2}
+    _item: {fileID: 11400000, guid: 77291a676513f5e45a327934937be5a9, type: 2}
   - _type: 0
-    _data: {fileID: 11400000, guid: 3a1ee42e5901e32448427c9a45ee5212, type: 2}
+    _item: {fileID: 11400000, guid: 3a1ee42e5901e32448427c9a45ee5212, type: 2}
+  - _type: 1
+    _item: {fileID: 11400000, guid: dbdd0fb4ba313f84ca16fddafc21cf98, type: 2}

@@ -1,16 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TMPro.EditorUtilities;
-using UnityEditorInternal;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace ESDesignPatterns.Factory
 {
     public enum FactoryType
     {
         Monster,
+        TRex,
     }
     
     public class FactoryManager : MonoBehaviour
@@ -23,12 +21,13 @@ namespace ESDesignPatterns.Factory
         private Dictionary<FactoryType, Lazy<Factory>> _factoryList = new();
 
         // Lazy initialization
-        private Factory _GetFactory(FactoryType type)
+        public Factory GetFactory(FactoryType type)
         {
             if (!_factoryList.TryGetValue(type, out var factory))
             {
                 var lazyFactory = new Lazy<Factory>(() => new Factory(_FindProduct(type)));
                 _factoryList.Add(type, lazyFactory);
+                factory = lazyFactory;
             }
             return factory?.Value;
         }
@@ -47,6 +46,6 @@ namespace ESDesignPatterns.Factory
             return factoryList.FirstOrDefault(x => x.Type == type);
         }
 
-        public static FactoryManager Instance => _instance ??= FindFirstObjectByType<FactoryManager>();
+        public static FactoryManager Instance => FindFirstObjectByType<FactoryManager>();
     }
 }

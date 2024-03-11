@@ -9,7 +9,8 @@ namespace ESDesignPatterns.Factory
     {
         public override void Initialize()
         {
-            
+            var model = Instantiate();
+            //model.transform.localScale = Vector3.one * 5;
         }
 
         public GameObject Instantiate()

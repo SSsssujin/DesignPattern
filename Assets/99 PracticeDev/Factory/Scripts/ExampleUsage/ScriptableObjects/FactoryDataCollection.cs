@@ -30,7 +30,7 @@ namespace ESDesignPatterns.Factory
             }
             Debug.Log(debug.ToString());
         }
+        
         public IReadOnlyCollection<Factory> FactoryList => factoryList;
     }
-    
 }
